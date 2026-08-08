@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Accredian Enterprise - Partial Clone
 
-## Getting Started
+A responsive partial clone of the Accredian Enterprise landing page, built as part of the Full Stack Developer Intern assignment.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Coming soon — Vercel deployment.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## GitHub Repository
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+https://github.com/Suraj-star-bit/accredian-enterprise-clone
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Icons
+- Next.js API Routes
+- Git & GitHub
+- Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Responsive Enterprise landing page
+- Reusable React components
+- Responsive navigation
+- Smooth navigation between sections
+- Hero section with animations
+- Statistics section
+- Benefits section
+- Process section
+- Testimonials
+- FAQ section
+- Lead capture form
+- Mock API integration using Next.js API Routes
+- Mobile and desktop layouts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+```text
+app/
+├── api/
+│   └── contact/
+│       └── route.ts
+├── globals.css
+├── layout.tsx
+└── page.tsx
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+components/
+├── Navbar.tsx
+├── Hero.tsx
+├── Stats.tsx
+├── Companies.tsx
+├── Benefits.tsx
+├── Process.tsx
+├── FAQ.tsx
+├── Testimonials.tsx
+├── LeadForm.tsx
+└── Footer.tsx
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+public/
+└── images/
